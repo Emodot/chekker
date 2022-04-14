@@ -1,0 +1,1532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <title>Chekker</title>
+</head>
+<body>
+  <header>
+    <div class="nav">
+      <div class="logo"><img src="assets/img/Chekker Logo.png" alt=""></div>
+      <div class="menu">
+        <a href="#"><p class="menu-list">About Us</p></a>
+        <a href="#"><p class="menu-list">Test Packages</p></a>
+        <a href="#"><p class="menu-list">Test Stores</p></a>
+        <a href="#"><p class="menu-list">Covid Test</p></a>
+        <a href="#"><p class="menu-list">Blog</p></a>
+        <div class="calender-btn">
+          <svg width="22" height="24" viewBox="0 0 22 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M15.1796 2.70629e-06C15.689 -0.00119397 16.0919 0.394608 16.0931 0.922343L16.0942 1.82189C19.3998 2.08096 21.5834 4.33343 21.5869 7.7877L21.6 17.8986C21.6047 21.6647 19.2387 23.982 15.4462 23.988L6.18227 24C2.41344 24.0048 0.0177878 21.6324 0.0130487 17.8555L7.95287e-06 7.86326C-0.00472324 4.38621 2.10184 2.13973 5.40741 1.83629L5.40623 0.936736C5.40504 0.409 5.79602 0.0119994 6.31733 0.0119994C6.83864 0.0108 7.22962 0.406602 7.23081 0.934337L7.23199 1.77392L14.2697 1.76432L14.2685 0.924742C14.2673 0.397006 14.6583 0.00120482 15.1796 2.70629e-06ZM15.663 17.0303H15.6511C15.1061 17.0435 14.6689 17.5004 14.6808 18.0522C14.682 18.6039 15.1215 19.0585 15.6665 19.0704C16.2222 19.0692 16.6724 18.6123 16.6712 18.0486C16.6712 17.4848 16.2198 17.0303 15.663 17.0303ZM5.90028 17.0315C5.35528 17.0555 4.92875 17.5124 4.92994 18.0642C4.95482 18.6159 5.40504 19.0477 5.95005 19.0225C6.48439 18.9985 6.90973 18.5415 6.88485 17.9898C6.873 17.4501 6.43344 17.0303 5.90028 17.0315ZM10.7816 17.0255C10.2366 17.0507 9.81129 17.5064 9.81129 18.0582C9.83617 18.6099 10.2864 19.0405 10.8314 19.0165C11.3645 18.9913 11.7911 18.5355 11.7662 17.9826C11.7543 17.4441 11.3148 17.0243 10.7816 17.0255ZM5.89436 12.7136C5.34936 12.7376 4.92402 13.1946 4.9252 13.7463C4.9489 14.298 5.4003 14.7298 5.94531 14.7046C6.47846 14.6806 6.9038 14.2237 6.87892 13.672C6.86708 13.1322 6.4287 12.7124 5.89436 12.7136ZM10.7769 12.6717C10.2319 12.6956 9.80536 13.1526 9.80654 13.7043C9.83024 14.2561 10.2816 14.6866 10.8267 14.6627C11.3598 14.6375 11.7852 14.1817 11.7615 13.63C11.7484 13.0902 11.3101 12.6705 10.7769 12.6717ZM15.6582 12.6776C15.1132 12.6896 14.6867 13.1334 14.6879 13.6851V13.6983C14.6997 14.2501 15.15 14.6687 15.6962 14.6567C16.2293 14.6435 16.6546 14.1865 16.6428 13.6348C16.6179 13.107 16.1902 12.6765 15.6582 12.6776ZM14.272 3.6114L7.23436 3.62099L7.23555 4.5913C7.23555 5.10824 6.84575 5.51604 6.32444 5.51604C5.80313 5.51724 5.41097 5.11064 5.41097 4.5937L5.40978 3.67017C3.09943 3.90165 1.82104 5.25937 1.82459 7.86087L1.82578 8.23388L19.7635 8.20989V7.7901C19.7126 5.21139 18.4188 3.85847 16.0966 3.65697L16.0978 4.58051C16.0978 5.09625 15.6962 5.50525 15.1867 5.50525C14.6654 5.50645 14.2732 5.09865 14.2732 4.58291L14.272 3.6114Z" fill="#00295D"/>
+          </svg>
+          <p class="count">3</p>
+        </div>
+      </div>
+      <div class="calender-btn-2">
+        <svg width="22" height="24" viewBox="0 0 22 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M15.1796 2.70629e-06C15.689 -0.00119397 16.0919 0.394608 16.0931 0.922343L16.0942 1.82189C19.3998 2.08096 21.5834 4.33343 21.5869 7.7877L21.6 17.8986C21.6047 21.6647 19.2387 23.982 15.4462 23.988L6.18227 24C2.41344 24.0048 0.0177878 21.6324 0.0130487 17.8555L7.95287e-06 7.86326C-0.00472324 4.38621 2.10184 2.13973 5.40741 1.83629L5.40623 0.936736C5.40504 0.409 5.79602 0.0119994 6.31733 0.0119994C6.83864 0.0108 7.22962 0.406602 7.23081 0.934337L7.23199 1.77392L14.2697 1.76432L14.2685 0.924742C14.2673 0.397006 14.6583 0.00120482 15.1796 2.70629e-06ZM15.663 17.0303H15.6511C15.1061 17.0435 14.6689 17.5004 14.6808 18.0522C14.682 18.6039 15.1215 19.0585 15.6665 19.0704C16.2222 19.0692 16.6724 18.6123 16.6712 18.0486C16.6712 17.4848 16.2198 17.0303 15.663 17.0303ZM5.90028 17.0315C5.35528 17.0555 4.92875 17.5124 4.92994 18.0642C4.95482 18.6159 5.40504 19.0477 5.95005 19.0225C6.48439 18.9985 6.90973 18.5415 6.88485 17.9898C6.873 17.4501 6.43344 17.0303 5.90028 17.0315ZM10.7816 17.0255C10.2366 17.0507 9.81129 17.5064 9.81129 18.0582C9.83617 18.6099 10.2864 19.0405 10.8314 19.0165C11.3645 18.9913 11.7911 18.5355 11.7662 17.9826C11.7543 17.4441 11.3148 17.0243 10.7816 17.0255ZM5.89436 12.7136C5.34936 12.7376 4.92402 13.1946 4.9252 13.7463C4.9489 14.298 5.4003 14.7298 5.94531 14.7046C6.47846 14.6806 6.9038 14.2237 6.87892 13.672C6.86708 13.1322 6.4287 12.7124 5.89436 12.7136ZM10.7769 12.6717C10.2319 12.6956 9.80536 13.1526 9.80654 13.7043C9.83024 14.2561 10.2816 14.6866 10.8267 14.6627C11.3598 14.6375 11.7852 14.1817 11.7615 13.63C11.7484 13.0902 11.3101 12.6705 10.7769 12.6717ZM15.6582 12.6776C15.1132 12.6896 14.6867 13.1334 14.6879 13.6851V13.6983C14.6997 14.2501 15.15 14.6687 15.6962 14.6567C16.2293 14.6435 16.6546 14.1865 16.6428 13.6348C16.6179 13.107 16.1902 12.6765 15.6582 12.6776ZM14.272 3.6114L7.23436 3.62099L7.23555 4.5913C7.23555 5.10824 6.84575 5.51604 6.32444 5.51604C5.80313 5.51724 5.41097 5.11064 5.41097 4.5937L5.40978 3.67017C3.09943 3.90165 1.82104 5.25937 1.82459 7.86087L1.82578 8.23388L19.7635 8.20989V7.7901C19.7126 5.21139 18.4188 3.85847 16.0966 3.65697L16.0978 4.58051C16.0978 5.09625 15.6962 5.50525 15.1867 5.50525C14.6654 5.50645 14.2732 5.09865 14.2732 4.58291L14.272 3.6114Z" fill="#00295D"/>
+        </svg>
+        <p class="count">3</p>
+      </div>
+      <div class="hamburger" onclick="showMobileMenu()">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </div>
+    <div id="myLinks" class="come-down">
+      <a href="#">About Us</a>
+      <a href="#">Test Packages</a>
+      <a href="#">Test Stores</a>
+      <a href="#">Covid Test</a>
+      <a href="#">Blog</a>
+    </div>
+    <div class="hero-section">
+      <h1 class="head">Book a Medical test from the comfort of your home using Chekker!</h1>
+      <p class="sub-head">With Chekker, spending hours waiting in queues at diagnostic centers or hospitals is now a thing of the past, as you can now book your medical tests from the comfort of your home and get your digital results in 24-48hours.</p>
+      <button class="book-test-btn">Book a Test</button>
+    </div>
+  </header>
+  <section class="section-1">
+    <h1 class="title">
+      How it works with Chekker <br> in 4 Quick Steps 
+      <!-- <img class="circle" src="assets/icons/circlr.svg" alt=""> -->
+    </h1>
+    <p class="sub-title">We’ve simplify booking diagnostic tests and results with Chekker</p>
+    <div class="boxes">
+      <div class="box">
+        <div class="box-icon">
+          <svg width="30" height="34" viewBox="0 0 30 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M21.0828 0.333317C21.7903 0.331655 22.3498 0.881379 22.3515 1.61435L22.3531 2.86372C26.9442 3.22354 29.9769 6.35197 29.9819 11.1496L30 25.1925C30.0066 30.4233 26.7204 33.6416 21.453 33.65L8.58648 33.6667C3.352 33.6733 0.0247053 30.3783 0.0181231 25.1326L1.10457e-05 11.2545C-0.00656006 6.42527 2.91922 3.30517 7.5103 2.88371L7.50865 1.63434C7.507 0.901369 8.05004 0.349979 8.77408 0.349979C9.49812 0.348313 10.0411 0.898038 10.0428 1.631L10.0444 2.79709L19.819 2.78376L19.8173 1.61768C19.8157 0.884711 20.3587 0.334986 21.0828 0.333317ZM21.7541 23.9865H21.7377C20.9807 24.0048 20.3735 24.6395 20.39 25.4058C20.3916 26.172 21.0021 26.8034 21.7591 26.8201C22.5308 26.8184 23.1562 26.1837 23.1545 25.4008C23.1545 24.6178 22.5276 23.9865 21.7541 23.9865ZM8.19484 23.9881C7.43789 24.0215 6.8455 24.6561 6.84714 25.4224C6.8817 26.1887 7.50701 26.7884 8.26396 26.7534C9.0061 26.7201 9.59685 26.0854 9.56229 25.3191C9.54584 24.5695 8.93534 23.9865 8.19484 23.9881ZM14.9745 23.9798C14.2175 24.0148 13.6268 24.6478 13.6268 25.4141C13.6613 26.1804 14.2867 26.7784 15.0436 26.7451C15.7841 26.7101 16.3765 26.0771 16.3419 25.3091C16.3255 24.5612 15.715 23.9781 14.9745 23.9798ZM8.18662 17.9911C7.42966 18.0245 6.83891 18.6591 6.84056 19.4254C6.87347 20.1917 7.50042 20.7914 8.25737 20.7564C8.99787 20.7231 9.58862 20.0884 9.55406 19.3221C9.53761 18.5725 8.92876 17.9895 8.18662 17.9911ZM14.9679 17.9328C14.211 17.9662 13.6186 18.6008 13.6202 19.3671C13.6531 20.1334 14.2801 20.7314 15.037 20.6981C15.7775 20.6631 16.3683 20.0301 16.3354 19.2638C16.3173 18.5142 15.7084 17.9312 14.9679 17.9328ZM21.7476 17.9412C20.9906 17.9578 20.3982 18.5742 20.3999 19.3405V19.3588C20.4163 20.1251 21.0416 20.7065 21.8002 20.6898C22.5407 20.6715 23.1315 20.0368 23.115 19.2705C23.0805 18.5375 22.4864 17.9395 21.7476 17.9412ZM19.8223 5.34914L10.0477 5.36247L10.0494 6.71013C10.0494 7.4281 9.50799 7.99448 8.78395 7.99448C8.05991 7.99615 7.51523 7.43143 7.51523 6.71346L7.51359 5.43077C4.30477 5.75227 2.52923 7.638 2.53415 11.2512L2.53581 11.7693L27.4494 11.7359V11.1529C27.3786 7.57136 25.5817 5.6923 22.3564 5.41244L22.3581 6.69513C22.3581 7.41144 21.8002 7.97949 21.0926 7.97949C20.3686 7.98116 19.8239 7.41477 19.8239 6.69847L19.8223 5.34914Z" fill="#00295D"/>
+          </svg>
+        </div>
+        <div class="box-head">Book a Test</div>
+        <div class="box-text">Visit mychekker.com to book your test online</div>
+      </div>
+      <div class="box">
+        <div class="box-icon">
+          <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0_19_24)">
+            <path d="M4.02208 22.4233L6.20812 24.6094L3.6677 27.1483L1.55604 25.0367L-0.00146484 26.5927L8.40583 35L9.96187 33.444L7.8502 31.3323L10.3906 28.7919L12.5767 30.9779L31.4767 12.0779L31.6575 4.20438L34.9956 0.866253L34.8294 -0.67083L30.8073 3.35125L22.9337 3.53209L4.02208 22.4233ZM6.51291 22.4233L16.1146 12.8217L22.1637 18.8708L19.7225 21.315L16.6892 18.2817L15.4058 19.565L18.4392 22.5983L16.1787 24.8588L13.1454 21.8254L11.8621 23.1088L14.8954 26.1421L12.5708 28.4667L6.51291 22.4233Z" fill="#00295D"/>
+            </g>
+            <defs>
+            <clipPath id="clip0_19_24">
+            <rect width="35" height="35" fill="white" transform="translate(0 35) rotate(-90)"/>
+            </clipPath>
+            </defs>
+          </svg>
+        </div>
+        <div class="box-head">Sample Collection</div>
+        <div class="box-text">Chekker sends a phlebotomist to collect samples from your location</div>
+      </div>
+      <div class="box">
+        <div class="box-icon">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M17.3333 16C18.0697 16 18.6667 15.403 18.6667 14.6666C18.6667 13.9303 18.0697 13.3333 17.3333 13.3333C16.597 13.3333 16 13.9303 16 14.6666C16 15.403 16.597 16 17.3333 16Z" fill="#00295D"/>
+            <path d="M15.3334 10.6666C15.7016 10.6666 16.0001 10.3682 16.0001 9.99998C16.0001 9.63179 15.7016 9.33331 15.3334 9.33331C14.9652 9.33331 14.6667 9.63179 14.6667 9.99998C14.6667 10.3682 14.9652 10.6666 15.3334 10.6666Z" fill="#00295D"/>
+            <path d="M16.6667 8.00002C17.0349 8.00002 17.3333 7.70154 17.3333 7.33335C17.3333 6.96516 17.0349 6.66669 16.6667 6.66669C16.2985 6.66669 16 6.96516 16 7.33335C16 7.70154 16.2985 8.00002 16.6667 8.00002Z" fill="#00295D"/>
+            <path d="M6.66675 0V2.66667H9.33341V25.3333C9.33341 27.1014 10.0358 28.7971 11.286 30.0474C12.5363 31.2976 14.232 32 16.0001 32C17.7682 32 19.4639 31.2976 20.7141 30.0474C21.9644 28.7971 22.6667 27.1014 22.6667 25.3333V2.66667H25.3334V0H6.66675ZM20.0001 2.66667V20H16.0001C16.0001 19.6464 15.8596 19.3072 15.6096 19.0572C15.3595 18.8071 15.0204 18.6667 14.6667 18.6667C14.3131 18.6667 13.974 18.8071 13.7239 19.0572C13.4739 19.3072 13.3334 19.6464 13.3334 20H12.0001V2.66667H20.0001Z" fill="#00295D"/>
+          </svg>
+        </div>
+        <div class="box-head">Sample Testing</div>
+        <div class="box-text">Samples are sent to ISO-certified partner laboratories.</div>
+      </div>
+      <div class="box">
+        <div class="box-icon">
+          <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M14.48 2.122C14.3328 2.04147 14.1678 1.99927 14 1.99927C13.8322 1.99927 13.6672 2.04147 13.52 2.122L3.4 7.642C2.996 7.862 2.666 8.176 2.426 8.548L14 14.86L25.574 8.548C25.3304 8.16968 24.9954 7.85879 24.6 7.644L14.48 2.12V2.122ZM2 20V10.594L13.52 16.878C13.6672 16.9585 13.8322 17.0007 14 17.0007C14.1678 17.0007 14.3328 16.9585 14.48 16.878L26 10.594V20C26 21.0609 25.5786 22.0783 24.8284 22.8284C24.0783 23.5786 23.0609 24 22 24H6C4.93913 24 3.92172 23.5786 3.17157 22.8284C2.42143 22.0783 2 21.0609 2 20ZM6.536 26C6.88706 26.6081 7.392 27.113 8.00006 27.4641C8.60811 27.8151 9.29787 28 10 28H22C24.1217 28 26.1566 27.1571 27.6569 25.6569C29.1571 24.1566 30 22.1217 30 20V12C30 11.2979 29.8151 10.6081 29.4641 10.0001C29.113 9.392 28.6081 8.88706 28 8.536V20C28 21.5913 27.3679 23.1174 26.2426 24.2426C25.1174 25.3679 23.5913 26 22 26H6.536Z" fill="#00295D"/>
+          </svg>
+        </div>
+        <div class="box-head">Receive your Easy-to-Read Result</div>
+        <div class="box-text">Results are sent back to you via email with results properly interpreted making it easy to read and understand.</div>
+      </div>
+    </div>
+  </section>
+  <section class="section-2">
+    <h1 class="title">Test Packages</h1>
+    <p class="sub-title">Choose A Test Package That Best Works for You</p>
+    <div class="cards">
+      <div class="card">
+        <div class="card-head top-space">General Body Test</div>
+        <div class="list">
+          <p class="list-items">Seminal Fluid Analysis</p>
+          <p class="list-items">Semen Microscopy, Culture and Sensitivity</p>
+          <p class="list-items">Semen Fructose Test</p>
+        </div>
+        <div class="card-btn">
+          <button>Book a Test</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-head">Comprehensive Metabolic Panel Test</div>
+        <div class="list">
+          <p class="list-items">Fasting Blood Glucose</p>
+          <p class="list-items">Calcium and Albumin</p>
+          <p class="list-items">Sodium</p>
+          <p class="list-items">Potassium</p>
+          <p class="more">+ 7 More Tests</p>
+        </div>
+        <div class="card-btn">
+          <button>Book a Test</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-head top-space">General Body Test</div>
+        <div class="list">
+          <p class="list-items">Kidney Function Test</p>
+          <p class="list-items">Liver Function Test</p>
+          <p class="list-items">HIV</p>
+          <p class="list-items">Lipid Profile (Full Cholesterol)Test</p>
+          <p class="list-items">Fasting Blood Sugar</p>
+          <p class="more">+ 11 More Tests</p>
+        </div>
+        <div class="card-btn">
+          <button>Book a Test</button>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-head top-space">General Body Test</div>
+        <div class="list">
+          <p class="list-items">Kidney Function Test</p>
+          <p class="list-items">Liver Function Test</p>
+          <p class="list-items">HIV</p>
+          <p class="list-items">Lipid Profile (Full Cholesterol)Test</p>
+          <p class="list-items">Fasting Blood Sugar</p>
+          <p class="more">+ 11 More Tests</p>
+        </div>
+        <div class="card-btn">
+          <button>Book a Test</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section-3">
+    <div class="inner-3">
+      <div class="lhs">
+        <img src="assets/img/Group 34.png" alt="">
+      </div>
+      <div class="rhs">
+        <h1 class="side-title">Why Use Chekker</h1>
+        <p class="side-sub-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc diam gravida amet sem mi ullamcorper in aliquet magna. Eget pharetra, lectus dignissim commodo ac mauris.</p>
+        <ul>
+          <li>At-home sample collection</li>
+          <li>Safe and Confidential results</li>
+          <li>We partner with top verified ISO-Certified Laboratories</li>
+          <li>Fast & Reliable service delivery </li>
+          <li>Accurate and easy to read medical results</li>
+          <li>No time wasted in traffic, labs, or hospitals.</li>
+          <li>Great Customer Service</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section class="section-4">
+    <div class="inner-4">
+      <div class="title">About Us</div>
+      <p class="inner-text">Chekker is a digital health platform that offers quality at-home lab testing to every Nigerian. Chekker is helping patients get access to the best private laboratories from the comfort of their homes.</p>
+      <p class="inner-text">With Chekker, spending hours waiting in queues at diagnostic centers or hospitals is now a thing of the past, as you can now book their medical tests from the comfort of your home, get samples collected by the Chekker medical team, Lab results are well-vetted and interpreted by Medical professionals before they are sent to you within 24 - 48 hours.</p>
+      <h1 class="partner-head">Partner Laboratories</h1>
+      <div class="partners">
+        <div class="partner">
+          <img src="assets/img/Clina Lanect 1.png" alt="">
+        </div>
+        <div class="partner">
+          <img src="assets/img/7RL54gene_Logo 1.png" alt="">
+        </div>
+        <div class="partner">
+          <img src="assets/img/Echo Lab 1.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="faq">
+    <div class="title">Frequently Asked Questions</div>
+    <div class="inner-faq">
+      <div class="faq-container">
+        <div class="faq-content">
+          <p class="question">Do you deliver lab results physically?</p>
+          <p class="response">No. We send your diagnostic test results via email</p>
+        </div>
+        <div class="sign">
+          <img class="plus" src="assets/icons/plus.svg" alt="">
+          <!-- <img class="minus" src="assets/icons/minus.svg" alt=""> -->
+        </div>
+      </div>
+      <div class="faq-container">
+        <div class="faq-content">
+          <p class="question">How does Chekker work?</p>
+          <p class="response">No. We send your diagnostic test results via email</p>
+        </div>
+        <div class="sign">
+          <img class="plus" src="assets/icons/plus.svg" alt="">
+          <!-- <img class="minus" src="assets/icons/minus.svg" alt=""> -->
+        </div>
+      </div>
+      <div class="faq-container">
+        <div class="faq-content">
+          <p class="question">What do I do if I have any inquiries?</p>
+          <p class="response">No. We send your diagnostic test results via email</p>
+        </div>
+        <div class="sign">
+          <img class="plus" src="assets/icons/plus.svg" alt="">
+          <!-- <img class="minus" src="assets/icons/minus.svg" alt=""> -->
+        </div>
+      </div>
+      <div class="faq-container">
+        <div class="faq-content">
+          <p class="question">Are my results confidential?</p>
+          <p class="response">No. We send your diagnostic test results via email</p>
+        </div>
+        <div class="sign">
+          <img class="plus" src="assets/icons/plus.svg" alt="">
+          <!-- <img class="minus" src="assets/icons/minus.svg" alt=""> -->
+        </div>
+      </div>
+      <div class="faq-container">
+        <div class="faq-content">
+          <p class="question">What are your work hours?</p>
+          <p class="response">No. We send your diagnostic test results via email</p>
+        </div>
+        <div class="sign">
+          <img class="plus" src="assets/icons/plus.svg" alt="">
+          <!-- <img class="minus" src="assets/icons/minus.svg" alt=""> -->
+        </div>
+      </div>
+      <div class="faq-container">
+        <div class="faq-content">
+          <p class="question">Can I book a test for multiple people?</p>
+          <p class="response">No. We send your diagnostic test results via email</p>
+        </div>
+        <div class="sign">
+          <img class="plus" src="assets/icons/plus.svg" alt="">
+          <!-- <img class="minus" src="assets/icons/minus.svg" alt=""> -->
+        </div>
+      </div>
+      <div class="faq-container">
+        <div class="faq-content">
+          <p class="question">Can I make changes to my appointment after booking?</p>
+          <p class="response">No. We send your diagnostic test results via email</p>
+        </div>
+        <div class="sign">
+          <img class="plus" src="assets/icons/plus.svg" alt="">
+          <!-- <img class="minus" src="assets/icons/minus.svg" alt=""> -->
+        </div>
+      </div>
+      <div class="faq-container">
+        <div class="faq-content">
+          <p class="question">How soon can I receive my lab test result?</p>
+          <p class="response">No. We send your diagnostic test results via email</p>
+        </div>
+        <div class="sign">
+          <img class="plus" src="assets/icons/plus.svg" alt="">
+          <!-- <img class="minus" src="assets/icons/minus.svg" alt=""> -->
+        </div>
+      </div>
+      <div class="faq-container">
+        <div class="faq-content">
+          <p class="question">Will I receive a confirmation email if I pay my bill online?</p>
+          <p class="response">No. We send your diagnostic test results via email</p>
+        </div>
+        <div class="sign">
+          <img class="plus" src="assets/icons/plus.svg" alt="">
+          <!-- <img class="minus" src="assets/icons/minus.svg" alt=""> -->
+        </div>
+      </div>
+    </div>
+    <p class="d-text">Was this helpful?</p>
+    <p class="d-text">Do you have further inquiries? <span class="chat-us">Chat with us</span></p>
+  </section>
+  <footer>
+    <div class="inner-footer">
+      <div class="lhs-footer">
+        <p class="footer-menu">About Us</p>
+        <p class="footer-menu">How it Works</p>
+        <p class="footer-menu">Contact us</p>
+        <p class="footer-menu mob">My Bookings</p>
+      </div>
+      <div class="middle-footer">
+        <img src="assets/img/logo 2 1.png" alt="">
+      </div>
+      <div class="rhs-footer">
+        <p class="footer-menu no-mob">My Bookings</p>
+        <div class="social-icons">
+          <img src="assets/icons/instagram.svg" alt="">
+          <img src="assets/icons/twitter.svg" alt="">
+          <img src="assets/icons/linkedin.svg" alt="">
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+<script>
+  function showMobileMenu () {
+    var menuId = document.getElementById("myLinks");
+    if (menuId.style.display === "block") {
+      menuId.style.display = "none";
+    } else {
+      menuId.style.display = "block";
+    }
+  }
+  let answers=document.querySelectorAll(".faq-container");
+        answers.forEach((event)=>{
+            event.addEventListener('click',()=>{
+                if(event.classList.contains("show")){
+                    event.classList.remove("show");
+                }
+                else{
+                    event.classList.add("show");
+                }
+            })
+        })
+</script>
+
+<style scoped>
+#myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+header {
+  width: 100vw;
+  height: fit-content;
+  background-image: url('assets/img/hero-image.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0 8rem;
+  overflow: hidden;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 2px;
+  margin: 5px auto;
+  background-color: #ffffff;
+}
+
+.hamburger {
+  display: none;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.logo img {
+  width: 13rem;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.menu-list {
+  color: #ffffffce;
+  margin-right: 40px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.calender-btn-2 {
+  display: none;
+  background-color: #ffffff;
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  position: relative;
+  margin-right: 20px;
+  cursor: pointer;
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+}
+
+.calender-btn {
+  background-color: #ffffff;
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  position: relative;
+  margin-right: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.count {
+  position: absolute;
+  font-size: 14px;
+  font-weight: 600;
+  top: -5px;
+  left: 65%;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 20px;
+  color: #fff;
+  background-color: #FCC43E;
+}
+
+.hero-section {
+  width: 40%;
+  margin-top: 15rem;
+  margin-bottom: 10rem;
+}
+
+.head {
+  color: #00295D;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 50px;
+}
+
+.sub-head {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 400;
+  /* line-height: 50px; */
+}
+
+.book-test-btn {
+  border: none;
+  background-color: #FCC43E;
+  width: 10rem;
+  height: 50px;
+  font-size: 18px;
+  color: #fff;
+  border-radius: 50px;
+  margin-top: 30px;
+}
+
+
+  /* SECTION 1 */
+
+.section-1 {
+  padding: 8rem 8rem 0 8rem;
+}
+
+.title {
+  position: relative;
+  color: #00295D;
+  font-size: 30px;
+  font-weight: 800;
+  text-align: center;
+  line-height: 35px;
+  z-index: 9;
+}
+
+.circle {
+  position: absolute;
+  top: 0;
+  left: 34%;
+  z-index: 2;
+}
+
+.sub-title {
+  opacity: 50%;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 5rem;
+}
+
+.box {
+  flex-basis: 22%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box-icon {
+  background-color: #EFF6FF;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.box-head {
+  font-weight: 700;
+  font-size: 20px;
+  margin: 15px 0;
+  text-align: center;
+}
+
+.box-text {
+  opacity: 60%;
+  font-size: 16px;
+  text-align: center;
+}
+
+
+  /* SECTION 2 */
+.section-2 {
+  padding: 8rem 8rem 7rem 8rem;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+}
+
+.card {
+  border: 1px solid #00285d27;
+  box-shadow: 0px 5px 5px rgba(39, 53, 174, 0.08);
+  flex-basis: 22%;
+  align-items: center;
+  padding: 40px 20px;
+  border-radius: 30px;
+  height: 24rem;
+  position: relative;
+}
+
+.card-head {
+  color: #00295D;
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.top-space {
+  margin-top: 17px;
+}
+
+.card-text {
+  opacity: 60%;
+  font-size: 16px;
+  text-align: center;
+}
+
+.list-items {
+  text-align: center;
+  margin-top: 7px;
+}
+
+.more {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 700;
+}
+
+.card-btn{
+  display: flex;
+  justify-content: center;
+}
+
+.card-btn button {
+  border: none;
+  background-color: #FCC43E;
+  width: 10rem;
+  font-size: 15px;
+  height: 45px;
+  color: #fff;
+  border-radius: 50px;
+  position: absolute;
+  bottom: 20px;
+}
+
+
+  /* SECTION 3 */
+.section-3 {
+  padding: 8rem 20rem 0 20rem;
+}
+
+.inner-3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.lhs {
+  flex-basis: 40%;
+}
+
+.rhs {
+  flex-basis: 45%;
+}
+
+.lhs img {
+  width: 100%;
+}
+
+.side-title {
+  color: #00295D;
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 35px;
+  margin-bottom: 20px;
+}
+
+.side-sub-title {
+  margin-bottom: 20px;
+}
+
+ul {
+  margin-left: 20px;
+}
+
+li {
+  margin-bottom: 7px;
+}
+
+
+  /* SECTION 4 */
+.section-4 {
+  padding: 14rem 20rem 10rem 20rem;
+  background-image: linear-gradient(#eef0f700 , #EEF0F7);
+}
+
+.inner-4 {
+  width: 85%;
+  margin: auto;
+}
+
+.title {
+  color: #00295D;
+  font-size: 30px;
+  font-weight: 800;
+  text-align: center;
+  line-height: 35px;
+}
+
+.inner-text {
+  opacity: 80%;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 20px;
+  line-height: 27px;
+}
+
+.partner-head {
+  color: #00295D;
+  font-weight: 800;
+  font-size: 18px;
+  text-align: center;
+  margin: 7rem 0 40px 0;
+}
+
+.partners {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.partner {
+  margin-right: 30px;
+}
+.partner img {
+  width: 80%;
+}
+
+
+  /* FAQ */
+.faq {
+  padding: 8rem 20rem 8rem 20rem;
+}
+
+.inner-faq {
+  margin-bottom: 8rem;
+}
+
+.faq-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 6rem;
+  background-color: #EFF6FF;
+  border-radius: 10px;
+  margin: 25px 0;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.question {
+  color: #00295D;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.response {
+  display: none;
+  margin: 10px 0;
+  transition: 1s;
+}
+
+.faq-container.show .response{
+  display: block;
+  transition: 1s;
+}
+
+.sign {
+  display: flex;
+  align-items: center;
+}
+
+.d-text {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.chat-us {
+  color: #00295D;
+  cursor: pointer;
+}
+
+
+  /* FOOTER  */
+
+.inner-footer {
+  border-radius: 500px 500px 0 0;
+  background-color: #00295D;
+  padding: 0 7rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 11rem;
+}
+
+.lhs-footer {
+  padding: 0 50px;
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 35%;
+}
+
+.mob {
+  display: none;
+}
+
+.no-mob {
+  display: block;
+}
+
+.middle-footer {
+  flex-basis: 20%;
+}
+
+.rhs-footer {
+  display: flex;
+  flex-basis: 35%;
+}
+
+.footer-menu {
+  color: #fff;
+  opacity: 50%;
+}
+
+.social-icons {
+  display: flex;
+  margin-left: 5rem;
+}
+
+.social-icons img {
+  margin: 0 10px;
+}
+
+
+@media only screen and (max-width: 900px) {
+  #myLinks {
+    display: none;
+    background-color: #00295D;
+    border-top: 1px solid rgba(255, 255, 255, 0.425);
+  }
+    
+  #myLinks a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 14px;
+    border: 1px solid rgba(255, 255, 255, 0.425);
+    border-top: none;
+    display: block;
+  }
+    
+  header {
+    /* width: 100%; */
+    height: fit-content;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* box-shadow:inset 0 0 0 2000px rgba(190, 190, 190, 0.3); */
+    /* border-radius: 0 0 100px 0; */
+    padding: 0 20px;
+    overflow: hidden;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+
+  .logo {
+    cursor: pointer;
+  }
+
+
+.calender-btn-2 {
+  display: flex;
+}
+
+.logo img {
+  width: 10rem;
+}
+
+  .menu {
+    display: none;
+  }
+
+  .menu-list {
+    color: #ffffffce;
+    margin-right: 40px;
+    font-weight: 400;
+    cursor: pointer;
+  }
+
+
+.hero-section {
+  width: 60%;
+  margin-top: 10rem;
+  margin-bottom: 5rem;
+}
+
+.head {
+  color: #00295D;
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 40px;
+}
+
+.sub-head {
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: 400;
+  /* line-height: 50px; */
+}
+
+
+.book-test-btn {
+  border: none;
+  background-color: #FCC43E;
+  width: 8rem;
+  height: 40px;
+  font-size: 15px;
+  color: #fff;
+  border-radius: 50px;
+  margin-top: 30px;
+}
+
+/* SECTION 1  */
+.section-1 {
+  padding: 5rem 3rem 0;
+}
+
+.title {
+  color: #00295D;
+  font-size: 30px;
+  font-weight: 800;
+  text-align: center;
+  line-height: 30px;
+}
+
+.sub-title {
+  opacity: 50%;
+  font-size: 17px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.boxes {
+  flex-wrap: wrap;
+    margin-top: 2rem;
+  }
+
+.box {
+  flex-basis: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+
+  /* SECTION 2 */
+  .section-2 {
+    padding: 5rem 3rem 0;
+}
+
+.cards {
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.card {
+  border: 1px solid #00285d27;
+  box-shadow: 0px 5px 5px rgba(39, 53, 174, 0.08);
+  flex-basis: 45%;
+  align-items: center;
+  padding: 40px 20px;
+  border-radius: 30px;
+  height: 24rem;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.top-space {
+  margin-top: 0;
+}
+.card-btn button {
+  border: none;
+  background-color: #FCC43E;
+  width: 10rem;
+  font-size: 14px;
+  height: 45px;
+  color: #fff;
+  border-radius: 50px;
+  margin-top: 30px;
+  /* position: unset; */
+  bottom: 30px;
+}
+
+
+  /* SECTION 3 */
+  .section-3 {
+    padding: 5rem 3rem 0;
+}
+
+.inner-3 {
+  flex-direction: column-reverse;
+}
+
+.side-title {
+  color: #00295D;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+
+.side-sub-title {
+  font-size: 17px;
+  margin-bottom: 20px;
+  line-height: 25px;
+}
+
+ul {
+  margin-bottom: 40px;
+}
+
+li {
+  font-size: 17px;
+}
+
+
+  /* SECTION 4 */
+  .section-4 {
+  padding: 5rem 3rem 5rem;
+  background-image: linear-gradient(#eef0f700 , #EEF0F7);
+}
+
+.inner-4 {
+  width: 100%;
+  margin: auto;
+}
+
+.title {
+  color: #00295D;
+  font-size: 30px;
+  font-weight: 800;
+  text-align: center;
+  line-height: 35px;
+}
+
+.inner-text {
+  opacity: 80%;
+  font-size: 17px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 20px;
+  line-height: 27px;
+}
+.partner-head {
+  color: #00295D;
+  font-weight: 800;
+  font-size: 20px;
+  text-align: center;
+  margin: 4rem 0 40px 0;
+}
+
+.partners {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.partner {
+  margin-right: 0;
+  margin: 0 10px;
+}
+.partner img {
+  width: 80%;
+}
+
+
+  /* FAQ */
+  .faq {
+    padding: 5rem 3rem 5rem;
+}
+
+.inner-faq {
+  margin-bottom: 4rem;
+}
+
+.faq-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #EFF6FF;
+  border-radius: 10px;
+  margin: 15px 0;
+  cursor: pointer;
+}
+
+.question {
+  color: #00295D;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.response {
+  display: none;
+  font-size: 16px;
+  margin: 10px 0;
+  transition: 1s;
+}
+
+.d-text, .chat-us {
+  font-size: 16px;
+}
+
+
+
+  /* FOOTER  */
+  
+  .inner-footer {
+    display: block;
+    border-radius: 0;
+    padding: 0;
+    height: fit-content;
+  }
+  .lhs-footer {
+  padding: 30px 8rem 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.mob {
+  display: block;
+}
+
+.no-mob {
+  display: none;
+}
+
+.middle-footer {
+  flex-basis: 100%;
+  text-align: center;
+}
+
+.middle-footer img {
+  width: 20%;
+}
+
+
+.footer-menu {
+  font-size: 15px;
+  color: #fff;
+  opacity: 50%;
+}
+
+.rhs-footer {
+  display: block;
+  flex-basis: 100%;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-left: 0;
+  padding-bottom: 30px;
+}
+
+.social-icons img {
+  width: 2%;
+  margin: 0 10px;
+}
+
+}
+
+
+@media only screen and (max-width: 500px) {
+
+  #myLinks {
+    display: none;
+    background-color: #00295D;
+    border-top: 1px solid rgba(255, 255, 255, 0.425);
+  }
+    
+  #myLinks a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 14px;
+    border: 1px solid rgba(255, 255, 255, 0.425);
+    border-top: none;
+    display: block;
+  }
+    
+  header {
+    /* width: 100%; */
+    height: fit-content;
+    background-size: unset;
+    background-repeat: no-repeat;
+    background-position: right;
+    box-shadow:inset 0 0 0 2000px rgba(190, 190, 190, 0.3);
+    border-radius: 0 0 100px 0;
+    padding: 0 20px;
+    overflow: hidden;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+
+  .logo {
+    cursor: pointer;
+  }
+
+
+.calender-btn-2 {
+  display: flex;
+}
+
+.logo img {
+  width: 10rem;
+}
+
+  .menu {
+    display: none;
+  }
+
+  .menu-list {
+    color: #ffffffce;
+    margin-right: 40px;
+    font-weight: 400;
+    cursor: pointer;
+  }
+
+
+.hero-section {
+  width: 100%;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+}
+
+.head {
+  color: #00295D;
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 40px;
+}
+
+.sub-head {
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: 400;
+  /* line-height: 50px; */
+}
+
+
+.book-test-btn {
+  border: none;
+  background-color: #FCC43E;
+  width: 8rem;
+  height: 40px;
+  font-size: 15px;
+  color: #fff;
+  border-radius: 50px;
+  margin-top: 30px;
+}
+
+/* SECTION 1  */
+.section-1 {
+  padding: 5rem 20px 0;
+}
+
+.title {
+  color: #00295D;
+  font-size: 24px;
+  font-weight: 800;
+  text-align: center;
+  line-height: 30px;
+}
+
+.sub-title {
+  opacity: 50%;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.boxes {
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+
+.box {
+  flex-basis: 85%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+
+  /* SECTION 2 */
+  .section-2 {
+    padding: 5rem 20px 0;
+}
+
+.cards {
+  display: block;
+  margin-top: 2rem;
+}
+
+.card {
+  border: 1px solid #00285d27;
+  box-shadow: 0px 5px 5px rgba(39, 53, 174, 0.08);
+  flex-basis: 100%;
+  align-items: center;
+  padding: 40px 20px;
+  border-radius: 30px;
+  height: fit-content;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.top-space {
+  margin-top: 0;
+}
+.card-btn button {
+  border: none;
+  background-color: #FCC43E;
+  width: 10rem;
+  font-size: 14px;
+  height: 45px;
+  color: #fff;
+  border-radius: 50px;
+  margin-top: 30px;
+  position: unset;
+  bottom: 20px;
+}
+
+
+  /* SECTION 3 */
+  .section-3 {
+    padding: 5rem 20px 0;
+}
+
+.inner-3 {
+  flex-direction: column-reverse;
+}
+
+.side-title {
+  color: #00295D;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+
+.side-sub-title {
+  font-size: 15px;
+  margin-bottom: 20px;
+  line-height: 25px;
+}
+
+ul {
+  margin-bottom: 40px;
+}
+
+li {
+  font-size: 15px;
+}
+
+
+  /* SECTION 4 */
+  .section-4 {
+  padding: 5rem 20px 5rem;
+  background-image: linear-gradient(#eef0f700 , #EEF0F7);
+}
+
+.inner-4 {
+  width: 100%;
+  margin: auto;
+}
+
+.title {
+  color: #00295D;
+  font-size: 24px;
+  font-weight: 800;
+  text-align: center;
+  line-height: 35px;
+}
+
+.inner-text {
+  opacity: 80%;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 20px;
+  line-height: 27px;
+}
+.partner-head {
+  color: #00295D;
+  font-weight: 800;
+  font-size: 18px;
+  text-align: center;
+  margin: 4rem 0 40px 0;
+}
+
+.partners {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.partner {
+  margin-right: 0;
+  margin: 0 10px;
+}
+.partner img {
+  width: 100%;
+}
+
+
+  /* FAQ */
+  .faq {
+    padding: 5rem 20px 5rem;
+}
+
+.inner-faq {
+  margin-bottom: 4rem;
+}
+
+.faq-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #EFF6FF;
+  border-radius: 10px;
+  margin: 15px 0;
+  cursor: pointer;
+}
+
+.question {
+  color: #00295D;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.response {
+  display: none;
+  font-size: 14px;
+  margin: 10px 0;
+  transition: 1s;
+}
+
+.d-text, .chat-us {
+  font-size: 14px;
+}
+
+
+  /* FOOTER  */
+
+  .inner-footer {
+    display: block;
+    border-radius: 0;
+    padding: 0;
+    height: fit-content;
+  }
+
+.lhs-footer {
+  padding: 30px 20px 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.mob {
+  display: block;
+}
+
+.no-mob {
+  display: none;
+}
+
+.middle-footer {
+  flex-basis: 100%;
+  text-align: center;
+}
+
+.middle-footer img {
+  width: 40%;
+}
+
+
+.footer-menu {
+  font-size: 13px;
+  color: #fff;
+  opacity: 50%;
+}
+
+.rhs-footer {
+  display: block;
+  flex-basis: 100%;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-left: 0;
+  padding-bottom: 30px;
+}
+
+.social-icons img {
+  width: 4%;
+  margin: 0 10px;
+}
+
+
+}
+</style>
+
+</html>
